@@ -12,10 +12,29 @@ struct ContentView: View {
       ZStack {
         Color(red: 0.09, green: 0.63, blue: 0.52, opacity: 0.9)
           .edgesIgnoringSafeArea(.all)
-        Text("Alex Averiser")
-          .font(Font.custom("Pacifico-Regular", size: 40))
-          .foregroundColor(.white)
-          .bold()
+          .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+        VStack {
+          Image("Andy")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 150.0, height: 150.0)
+            .clipShape(Circle())
+            .overlay(
+              Circle().stroke(Color.white, lineWidth: 5.0)
+            )
+          Text("Alex Averiser")
+            .font(Font.custom("Pacifico-Regular", size: 40))
+            .foregroundColor(.white)
+            .bold()
+          Text("iOS Developer")
+            .foregroundColor(.white)
+            .font(.system(size: 25))
+          Divider()
+          RoundedRectangle(cornerRadius: 25.0)
+            .fill(Color.white)
+            .frame(height: 50)
+            .overlay(Text("+7 926 300 200 5"))
+        }
       }
     }
 }
