@@ -30,10 +30,9 @@ struct ContentView: View {
             .foregroundColor(.white)
             .font(.system(size: 25))
           Divider()
-          RoundedRectangle(cornerRadius: 25.0)
-            .fill(Color.white)
-            .frame(height: 50)
-            .overlay(Text("+7 926 300 200 5"))
+          InfoView(text: "+7 926 300 200 5", imageName: "phone.fill")
+          InfoView(text: "alex@email.com", imageName: "envelope.fill")
+
         }
       }
     }
@@ -44,3 +43,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

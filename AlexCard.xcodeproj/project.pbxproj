@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40D9F7727079CA800671F87 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40D9F7627079CA800671F87 /* InfoView.swift */; };
 		E4F535AF2705BC3300975099 /* AlexCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F535AE2705BC3300975099 /* AlexCardApp.swift */; };
 		E4F535B12705BC3300975099 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F535B02705BC3300975099 /* ContentView.swift */; };
 		E4F535B32705BC3600975099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F535B22705BC3600975099 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E40D9F7627079CA800671F87 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		E4F535AB2705BC3300975099 /* AlexCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F535AE2705BC3300975099 /* AlexCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexCardApp.swift; sourceTree = "<group>"; };
 		E4F535B02705BC3300975099 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				E4F535BD2705C05E00975099 /* fonts */,
 				E4F535AE2705BC3300975099 /* AlexCardApp.swift */,
 				E4F535B02705BC3300975099 /* ContentView.swift */,
+				E40D9F7627079CA800671F87 /* InfoView.swift */,
 				E4F535B22705BC3600975099 /* Assets.xcassets */,
 				E4F535B72705BC3600975099 /* Info.plist */,
 				E4F535B42705BC3600975099 /* Preview Content */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F535B12705BC3300975099 /* ContentView.swift in Sources */,
+				E40D9F7727079CA800671F87 /* InfoView.swift in Sources */,
 				E4F535AF2705BC3300975099 /* AlexCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
